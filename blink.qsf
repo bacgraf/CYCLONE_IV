@@ -1,0 +1,7 @@
+set_location_assignment PIN_24 -to clk
+set_location_assignment PIN_1 -to led
+
+set_global_assignment -name FAMILY "Cyclone IV E"
+set_global_assignment -name DEVICE EP4CE6E22C8
+set_global_assignment -name TOP_LEVEL_ENTITY blink
+set_global_assignment -name VERILOG_FILE blink.v
